@@ -1,11 +1,8 @@
 name: golang-pipeline
 
 on:
-  push:
-    tags:
-      - '*'
-    branches:
-      - main
+  push
+    
 
 jobs:
   test:
