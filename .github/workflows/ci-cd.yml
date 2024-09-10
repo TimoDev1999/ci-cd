@@ -1,7 +1,9 @@
 name: golang-pipeline
 
 on:
-  push
+  push:
+    tags:
+      - '*'
     
 
 jobs:
